@@ -4,6 +4,10 @@ const { exercises } = require('./data.js')
 
 const server = restify.createServer()
 
+server.get('/', (req, res, next) => {
+  res.send(200, 'Hello, this is a Perfect Pitch server.')
+})
+
 server.get('/exercises', (req, res, next) => {
   res.send(200, exercises)
 })
