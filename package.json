@@ -1,0 +1,18 @@
+{
+  "name": "perfect-pitch-server",
+  "version": "0.0.1",
+  "description": "Backend for PerfectPitch",
+  "main": "index.js",
+  "author": "Vlad Khitev",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "dependencies": {
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
