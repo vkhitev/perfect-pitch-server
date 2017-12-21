@@ -1,32 +1,17 @@
-exports.exercises = [
-  {
-    title: 'Exercise 1',
-    text: 'Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 1',
-    image: '',
-    route: 'Exercise1'
-  },
-  {
-    title: 'Exercise 2',
-    text: 'Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 2',
-    image: '',
-    route: 'Exercise2'
-  },
-  {
-    title: 'Exercise 3',
-    text: 'Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 3',
-    image: '',
-    route: 'Exercise3'
-  },
-  {
-    title: 'Exercise 4',
-    text: 'Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 4',
-    image: '',
-    route: 'Exercise4'
-  },
-  {
-    title: 'Exercise 5',
-    text: 'Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 5',
-    image: '',
-    route: 'Exercise5'
-  }
-]
+exports.exercises = [{
+  title: 'Intervals',
+  text: 'In this exercise, you will hear two notes in sequence. Your goal is to identify the interval between the two notes.',
+  route: 'IntervalsExercise'
+}, {
+  title: 'Chords',
+  text: 'In this exercise, you will hear a chord. Your goal is to identify the type of chord that you heard.',
+  route: 'ChordsExercise'
+}, {
+  title: 'Scales',
+  text: 'In this exercise, you will hear a scale. Your goal is to identify the name of the scale that you heard.',
+  route: 'NotImplemented'
+}, {
+  title: 'Chord Progressions',
+  text: 'In this exercise, you will hear a chord progression. Your goal is to identify each chord that you heard.',
+  route: 'NotImplemented'
+}]
